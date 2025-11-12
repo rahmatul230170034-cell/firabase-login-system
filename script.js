@@ -7,7 +7,7 @@ import { getFirestore, setDoc, doc }
 
 /* --- MASUKKAN firebaseConfig DARI FIREBASE CONSOLE DI SINI --- */
 const firebaseConfig = {
-  apiKey: "AIzaSyB4LAWMU6t_wLz3DGdmsbLsOF5Et7sdWSw",
+   apiKey: "AIzaSyB4LAWMU6t_wLz3DGdmsbLsOF5Et7sdWSw",
   authDomain: "loginapp-48e80.firebaseapp.com",
   projectId: "loginapp-48e80",
   storageBucket: "loginapp-48e80.firebasestorage.app",
@@ -87,4 +87,5 @@ onAuthStateChanged(auth, (user) => {
     authForms.classList.remove("hidden");
     userPage.classList.add("hidden");
   }
+
 });
