@@ -1,2 +1,2 @@
 # firabase-login-system
-project penerapan firebase authentication dan firestore untuk keamanan login pengguna
+project “Penerapan Firebase Authentication dan Firestore pada Sistem Login Aman.”
